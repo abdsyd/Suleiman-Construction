@@ -1,7 +1,7 @@
 .main-container{
     background-color: #343a40 !important ;
-    margin: 40px;
-    padding: 40px;
+    margin: 30px ;
+    padding: 15px;
 }
 .textarea-form {
     height: 150px !important;
@@ -9,7 +9,7 @@
 .submit-btn {
     background-color: #ffd700;
     color: #343a40;
-    margin-top: 40px;
+    margin-top: 30px;
     width: 150px;
     border: none;
 }
@@ -19,11 +19,11 @@
 .title {
     color: #ffd700;
     font-size: 45px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 .contact-info{
-    padding-right:40px;
-    padding-top: 40px;
+    padding-right:30px;
+    padding-top: 20px;
 }
 p svg {
     font-size: 40px;
@@ -37,4 +37,8 @@ p svg {
   .form-control {
     border: solid 2px;
   }
-  
+  .required-field::before {
+    content: "*";
+    color: red;
+    margin-right: 4px;
+}
