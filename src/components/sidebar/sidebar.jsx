@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 export default function SideBar() {
     return (
-        <div className={` d-none d-sm-block sidebar active`}>
+        <div className={` d-none d-md-block sidebar active`}>
             <img src={logo} alt="Logo" className="logo" />
             <ul>
                 <li>

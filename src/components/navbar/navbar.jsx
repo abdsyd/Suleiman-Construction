@@ -7,9 +7,8 @@ import minilogo from "./mini-logo.png"
 
 export default function MobileNavBar() {
     return (
-        <Navbar variant="dark" expand="sm" className="d-sm-none">
-            <Container>
-
+        <Navbar variant="dark" expand="md" className="d-md-none d-flex justify-content-between align-items-center ps-3 pe-3">
+           
                 <Navbar.Toggle aria-controls="basic-navbar-nav">
                     <GiHamburgerMenu style={{ color: "white" }} />
                 </Navbar.Toggle>
@@ -24,14 +23,13 @@ export default function MobileNavBar() {
 
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                        <Link to='/' className='link'> الرئيسة
-                        </Link>
+                        <Link to='/' className='link'> الرئيسة </Link>
                         <Link to='/products' className='link'>منتجاتنا</Link>
                         <Link to='/members' className='link'>الوكلاء</Link>
                         <Link to='/contact' className='link'>اتصل بنا</Link>
                     </Nav>
                 </Navbar.Collapse>
-            </Container>
+            
         </Navbar>
     );
 }

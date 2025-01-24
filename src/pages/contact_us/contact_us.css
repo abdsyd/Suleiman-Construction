@@ -1,7 +1,7 @@
 .main-container{
     background-color: #343a40 !important ;
     margin: 30px ;
-    padding: 15px;
+    padding: 10px 15px 15px 15px;
 }
 .textarea-form {
     height: 150px !important;
@@ -23,7 +23,7 @@
 }
 .contact-info{
     padding-right:30px;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 p svg {
     font-size: 40px;
