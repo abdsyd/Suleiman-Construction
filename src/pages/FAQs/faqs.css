@@ -1,0 +1,79 @@
+h1 {
+    margin: 30px;
+    color: #343a40;
+}
+
+.accordion-body {
+    color: #343a40;
+    /* Text color for body content */
+}
+
+.accordion-header {
+    color: #343a40;
+    /* Text color for accordion header */
+}
+
+/* Remove borders from the accordion */
+.accordion-item {
+    border-top: none ;
+    border-left: none ;
+    border-right: none ;
+}
+
+.accordion-button {
+    border: none !important;
+    box-shadow: none !important;
+    /* Remove focus outline */
+}
+
+/* Remove border when collapsed */
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+/* Hide Bootstrap's default accordion arrow */
+.accordion-button::after {
+    display: none !important;
+}
+
+/* Add custom plus icon for collapsed state */
+.accordion-button.collapsed::before {
+    content: '\002B';
+    /* Unicode for plus sign (+) */
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffd700;
+    /* Adjust color as needed */
+    position: relative;
+    bottom: 2.5px;
+
+
+}
+
+/* Add custom minus icon for expanded state */
+.accordion-button::before {
+    content: '\2212';
+    /* Unicode for minus sign (−) */
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffd700;
+    position: relative;
+    bottom: 2.5px;
+
+}
+
+/* Ensure space between icon and text */
+.accordion-button {
+    gap: 5px;
+    /* Adds space between the icon and text */
+}
+
+/* Add a custom vertical line before the accordion header */
+.vertical-line {
+    width: 8px;
+    background-color: #ffd700;
+    margin: 0 0 0 20px;
+    border-radius: 2px;
+    height: 75px;
+}
