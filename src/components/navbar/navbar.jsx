@@ -26,6 +26,7 @@ export default function MobileNavBar() {
                         <Link to='/' className='link'> الرئيسة </Link>
                         <Link to='/products' className='link'>منتجاتنا</Link>
                         <Link to='/members' className='link'>الوكلاء</Link>
+                        <Link to='/faqs' className='link'>الأسئلة الشائعة</Link>
                         <Link to='/contact' className='link'>اتصل بنا</Link>
                     </Nav>
                 </Navbar.Collapse>

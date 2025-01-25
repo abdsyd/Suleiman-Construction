@@ -8,77 +8,52 @@ return (
     <div className='container accordion-text'>
       <Accordion defaultActiveKey="0">
       <Accordion.Item eventKey="0">
-        <Accordion.Header>Accordion Item #1</Accordion.Header>
+        <Accordion.Header> ما هو الغرض من هذا الموقع؟</Accordion.Header>
         <Accordion.Body>
           <div className='d-flex'>
           <div className="vertical-line"></div> {/*Trash not working*/}
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          هذا نص تجريبي يستخدم كعنصر نائب. يمكنك استخدامه لاختبار التصميمات أو عرض المحتوى في التطبيقات أو المواقع الإلكترونية. النص العربي هنا يوفر لك فكرة عن كيفية ظهور المحتوى الحقيقي عند إضافته لاحقًا. يتم استخدام هذا النص بشكل شائع في النماذج والتخطيطات لضمان تناسق التصميم قبل نشر المحتوى الفعلي.
+
           </div>
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1">
-        <Accordion.Header>Accordion Item #2</Accordion.Header>
+        <Accordion.Header>كيف يمكنني التسجيل في الموقع؟</Accordion.Header>
         <Accordion.Body>
         <div className='d-flex'>
           <div className="vertical-line"></div> 
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          هذا نص تجريبي يستخدم كعنصر نائب. يمكنك استخدامه لاختبار التصميمات أو عرض المحتوى في التطبيقات أو المواقع الإلكترونية. النص العربي هنا يوفر لك فكرة عن كيفية ظهور المحتوى الحقيقي عند إضافته لاحقًا. يتم استخدام هذا النص بشكل شائع في النماذج والتخطيطات لضمان تناسق التصميم قبل نشر المحتوى الفعلي.
+
           </div>
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="2">
-        <Accordion.Header>Accordion Item #2</Accordion.Header>
+        <Accordion.Header> هل يمكنني تحديث معلومات حسابي؟</Accordion.Header>
         <Accordion.Body>
         <div className='d-flex'>
           <div className="vertical-line"></div> 
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          هذا نص تجريبي يستخدم كعنصر نائب. يمكنك استخدامه لاختبار التصميمات أو عرض المحتوى في التطبيقات أو المواقع الإلكترونية. النص العربي هنا يوفر لك فكرة عن كيفية ظهور المحتوى الحقيقي عند إضافته لاحقًا. يتم استخدام هذا النص بشكل شائع في النماذج والتخطيطات لضمان تناسق التصميم قبل نشر المحتوى الفعلي.
+
           </div>
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="3">
-        <Accordion.Header>Accordion Item #2</Accordion.Header>
+        <Accordion.Header>كيف يمكنني التواصل مع الدعم الفني؟</Accordion.Header>
         <Accordion.Body>
         <div className='d-flex'>
           <div className="vertical-line"></div> 
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          هذا نص تجريبي يستخدم كعنصر نائب. يمكنك استخدامه لاختبار التصميمات أو عرض المحتوى في التطبيقات أو المواقع الإلكترونية. النص العربي هنا يوفر لك فكرة عن كيفية ظهور المحتوى الحقيقي عند إضافته لاحقًا. يتم استخدام هذا النص بشكل شائع في النماذج والتخطيطات لضمان تناسق التصميم قبل نشر المحتوى الفعلي.
+
           </div>
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="4">
-        <Accordion.Header>Accordion Item #2</Accordion.Header>
+        <Accordion.Header>ما هي طرق الدفع المتاحة؟</Accordion.Header>
         <Accordion.Body>
         <div className='d-flex'>
           <div className="vertical-line"></div> 
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          هذا نص تجريبي يستخدم كعنصر نائب. يمكنك استخدامه لاختبار التصميمات أو عرض المحتوى في التطبيقات أو المواقع الإلكترونية. النص العربي هنا يوفر لك فكرة عن كيفية ظهور المحتوى الحقيقي عند إضافته لاحقًا. يتم استخدام هذا النص بشكل شائع في النماذج والتخطيطات لضمان تناسق التصميم قبل نشر المحتوى الفعلي.
+
           </div>
         </Accordion.Body>
       </Accordion.Item>

@@ -42,3 +42,6 @@ p svg {
     color: red;
     margin-right: 4px;
 }
+p{
+    font-size: 20px;
+}

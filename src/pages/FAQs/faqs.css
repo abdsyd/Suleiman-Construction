@@ -5,22 +5,18 @@ h1 {
 
 .accordion-body {
     color: #343a40;
-    /* Text color for body content */
+    font-size: 20px;
 }
-
-.accordion-header {
-    color: #343a40;
-    /* Text color for accordion header */
-}
-
 /* Remove borders from the accordion */
 .accordion-item {
-    border-top: none ;
-    border-left: none ;
-    border-right: none ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 
 .accordion-button {
+    font-size: 22px;
+    color: #343a40;
     border: none !important;
     box-shadow: none !important;
     /* Remove focus outline */
@@ -75,5 +71,5 @@ h1 {
     background-color: #ffd700;
     margin: 0 0 0 20px;
     border-radius: 2px;
-    height: 75px;
+    height: 90px;
 }
