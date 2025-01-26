@@ -1,0 +1,26 @@
+.members .card-text svg {
+    font-size: 25px;
+}
+/* Only apply to .card elements within the Members component */
+.members .card {
+    width: 20rem;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 15px rgba(255, 215, 0, 0.75);
+    border: none;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.members .card:hover {
+    box-shadow: 0 8px 20px rgba(255, 215, 0, 1);
+}
+
+.members .card img {
+   background-color: #ffd700;
+    transition: transform 0.3s ease-in-out;
+   
+}
+
+.members .card:hover img {
+    transform: scale(1.1);
+}
