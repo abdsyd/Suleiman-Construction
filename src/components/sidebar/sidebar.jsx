@@ -18,7 +18,7 @@ export default function SideBar() {
                 </Link>
                 <Link to="/products" className='text-decoration-none'  >
                     <li>
-                        <AiFillProduct /> منتجاتنا
+                        <AiFillProduct />خدماتنا
                     </li>
                 </Link>
                 <Link to="/members" className='text-decoration-none' >
