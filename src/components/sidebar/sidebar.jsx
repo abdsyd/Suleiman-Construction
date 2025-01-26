@@ -11,33 +11,33 @@ export default function SideBar() {
         <div className={` d-none d-md-block sidebar active`}>
             <img src={logo} alt="Logo" className="logo" />
             <ul>
-                <li>
-                    <Link to="/" >
+                <Link to="/" className='text-decoration-none' >
+                    <li>
                         <FaHome /> الرئيسة
-                    </Link>
-                </li>
-                <li>
-                    <Link to="/products" >
+                    </li>
+                </Link>
+                <Link to="/products" className='text-decoration-none'  >
+                    <li>
                         <AiFillProduct /> منتجاتنا
-                    </Link>
-                </li>
-                <li>
-                    <Link to="/members" >
+                    </li>
+                </Link>
+                <Link to="/members" className='text-decoration-none' >
+                    <li>
                         <IoIosPeople /> الوكلاء
-                    </Link>
-                </li>
-                <li>
-                    <Link to="/faqs" >
-                        <RxQuestionMark/>الأسئلة الشائعة 
-                    </Link>
-                </li>
-                <li>
-                    <Link to="/contact" >
+                    </li>
+                </Link>
+                <Link to="/faqs" className='text-decoration-none' >
+                    <li>
+                        <RxQuestionMark />الأسئلة الشائعة
+                    </li>
+                </Link>
+                <Link to="/contact" className='text-decoration-none' >
+                    <li>
                         <FaPhone /> اتصل بنا
-                    </Link>
-                </li>
+                    </li>
+                </Link>
             </ul>
-           
+
         </div>
     );
 }

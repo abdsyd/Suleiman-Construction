@@ -5,7 +5,7 @@ export default function FAQs() {
 return (
   <>
     <h1>الأسئلة الشائعة</h1>
-    <div className='container accordion-text'>
+    <div className='container mb-5'>
       <Accordion defaultActiveKey="0">
       <Accordion.Item eventKey="0">
         <Accordion.Header> ما هو الغرض من هذا الموقع؟</Accordion.Header>
@@ -57,6 +57,7 @@ return (
           </div>
         </Accordion.Body>
       </Accordion.Item>
+      
     </Accordion>
     </div>
     </>

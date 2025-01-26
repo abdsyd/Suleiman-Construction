@@ -1,7 +1,5 @@
-/* Base sidebar styling */
 .sidebar {
     background-color: #343a40;
-    color: white;
     height: 100vh;
     width: 250px;
     position: fixed;
@@ -13,8 +11,6 @@
     display: block;
 }
 
-
-/* Navigation list */
 ul {
     list-style: none;
     padding: 0;
@@ -24,17 +20,10 @@ ul {
 ul li {
     display: flex;
     align-items: center;
-    padding: 15px 10px;
-    transition: all 0.3s ease-in-out;
-}
-
-ul li a {
     color: #FFD700;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
+    padding: 15px 10px;
     gap: 10px;
-    margin-left: 15px;
+    transition: all 0.3s ease-in-out;
 }
 
 ul li:hover {
@@ -44,5 +33,5 @@ ul li:hover {
 }
 
 .sidebar svg {
-    font-size: 24px;
+    font-size: 25px;
 }
