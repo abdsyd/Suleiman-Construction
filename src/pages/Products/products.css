@@ -6,7 +6,7 @@
 .products .card img {
     background-color: #F5F5F5;
  }
- p{
+ .products p{
     font-weight: bold;
     font-size: 30px;
     text-decoration: underline;

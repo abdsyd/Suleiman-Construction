@@ -2,16 +2,17 @@ import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import productPic from './metal.png';
 import vehicle from './vehicle.png';
+import { AiFillProduct } from "react-icons/ai";
 import './products.css';
 
 export default function Products() {
     return (
         <div className='products'>
             <h1>خدماتنا</h1>
-            <Container>
+                <div className='p-4'>
                 <Row>
                     <Col xs={12}>
-                        <p>مواد بناء</p>
+                        <p><AiFillProduct />مواد بناء</p>
                     </Col>
                 </Row>
                 <Row>
@@ -20,30 +21,37 @@ export default function Products() {
                             <Card>
                                 <Card.Img src={productPic} />
                                 <Card.Body>
-                                    <Card.Title>Card Title</Card.Title>
+                                    <Card.Title className="d-flex justify-content-between">
+                                        <span>عنوان</span>
+                                        <span>$99.99</span>
+                                    </Card.Title>
                                 </Card.Body>
                             </Card>
+
                         </Col>
                     ))}
                 </Row>
                 <Row>
                     <Col xs={12}>
-                        <p>نقل</p>
+                        <p><AiFillProduct />نقل</p>
                     </Col>
                 </Row>
-                <Row className='m-4'>
+                <Row>
                     {[...Array(4)].map((_, index) => (
-                        <Col key={index} xs={12} sm={6} md={6} lg={3} className="mb-4  d-flex justify-content-center">
+                        <Col key={index} xs={12} sm={6} md={6} lg={3} className="mb-5  d-flex justify-content-center">
                             <Card>
                                 <Card.Img src={vehicle} />
                                 <Card.Body>
-                                    <Card.Title>Card Title</Card.Title>
+                                    <Card.Title className="d-flex justify-content-between">
+                                        <span>عنوان</span>
+                                        <span>$99.99</span>
+                                    </Card.Title>
                                 </Card.Body>
                             </Card>
                         </Col>
                     ))}
                 </Row>
-            </Container>
+                </div>
         </div>
     );
 }
