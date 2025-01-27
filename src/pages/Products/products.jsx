@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Card } from 'react-bootstrap';
+import { Row, Col, Card } from 'react-bootstrap';
 import productPic from './metal.png';
 import vehicle from './vehicle.png';
 import { AiFillProduct } from "react-icons/ai";
@@ -21,10 +21,11 @@ export default function Products() {
                             <Card>
                                 <Card.Img src={productPic} />
                                 <Card.Body>
-                                    <Card.Title className="d-flex justify-content-between">
+                                    <Card.Title>
                                         <span>عنوان</span>
                                         <span>$99.99</span>
                                     </Card.Title>
+                                    <Card.Text>افضل منتج في العالم</Card.Text>
                                 </Card.Body>
                             </Card>
 
@@ -38,14 +39,15 @@ export default function Products() {
                 </Row>
                 <Row>
                     {[...Array(4)].map((_, index) => (
-                        <Col key={index} xs={12} sm={6} md={6} lg={3} className="mb-5  d-flex justify-content-center">
+                        <Col key={index} xs={12} sm={6} md={6} lg={3} className="mb-5 pb-5  d-flex justify-content-center">
                             <Card>
                                 <Card.Img src={vehicle} />
                                 <Card.Body>
-                                    <Card.Title className="d-flex justify-content-between">
+                                    <Card.Title>
                                         <span>عنوان</span>
                                         <span>$99.99</span>
                                     </Card.Title>
+                                    <Card.Text>افضل منتج في العالم</Card.Text>
                                 </Card.Body>
                             </Card>
                         </Col>

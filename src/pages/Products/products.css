@@ -3,12 +3,43 @@
     height: 19rem;
     border: none;
 }
+
 .products .card img {
     background-color: #F5F5F5;
- }
- .products p{
+    width: 100%;
+    /* Ensures the image takes full width of the card */
+    height: 100%;
+    /* Ensures the image fills the card height */
+    object-fit: cover;
+    /* Maintains aspect ratio and covers the area */
+    border-top-left-radius: 0.5rem;
+    /* Optional: rounded corners */
+    border-top-right-radius: 0.5rem;
+}
+
+.products p {
     font-weight: bold;
     font-size: 30px;
     text-decoration: underline;
-    color: #ffd700;
- }
+    color: #D4AF37;
+}
+
+.products p svg {
+    color: #D4AF37;
+}
+
+.products .card .card-text {
+    text-decoration: none;
+    color: #343a40;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.products .card .card-title {
+    text-decoration: none;
+    color: #343a40;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
