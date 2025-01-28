@@ -17,7 +17,7 @@ export default function Products() {
                 </Row>
                 <Row>
                     {[...Array(6)].map((_, index) => (
-                        <Col key={index} xs={12} sm={6} md={4} lg={3} className="mb-4 d-flex justify-content-center">
+                        <Col key={index} xs={12} sm={6} md={4} lg={3} className="mb-4">
                             <Card>
                                 <Card.Img src={productPic} />
                                 <Card.Body>
@@ -39,7 +39,7 @@ export default function Products() {
                 </Row>
                 <Row>
                     {[...Array(4)].map((_, index) => (
-                        <Col key={index} xs={12} sm={6} md={6} lg={3} className="mb-5 pb-5  d-flex justify-content-center">
+                        <Col key={index} xs={12} sm={6} md={6} lg={3} className="mb-5 pb-5">
                             <Card>
                                 <Card.Img src={vehicle} />
                                 <Card.Body>

@@ -1,6 +1,5 @@
 .products .card {
-    padding: 20px;
-    margin: 10px;
+    width: 100%;
     border: none;
 }
 
