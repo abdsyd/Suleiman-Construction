@@ -39,7 +39,7 @@ export default function Products() {
                 </Row>
                 <Row>
                     {[...Array(4)].map((_, index) => (
-                        <Col key={index} xs={12} sm={6} md={6} lg={3} className="mb-5 pb-5">
+                        <Col key={index} xs={12} sm={6} md={6} lg={3}>
                             <Card>
                                 <Card.Img src={vehicle} />
                                 <Card.Body>
