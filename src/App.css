@@ -27,3 +27,7 @@ body {
     margin-right: 0;
   }
 }
+.ltr {
+  display: inline;
+  direction: ltr;
+}

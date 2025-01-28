@@ -16,11 +16,12 @@ export default function Members() {
                             <Card>
                                 <Card.Img src={profilePic} />
                                 <Card.Body>
-                                <Card.Title className="fw-bold fs-4 pb-4">عهد سليمان</Card.Title>
-                                    <Card.Text> <FaUserTie />
-                                    الرئيس التنفيذي</Card.Text>
+                                    <Card.Title className="fw-bold fs-4 pb-4">عهد سليمان</Card.Title>
                                     <Card.Text>
-                                    <BiPhoneCall />+963 996 840 955
+                                        <FaUserTie />الرئيس التنفيذي
+                                    </Card.Text>
+                                    <Card.Text>
+                                        <BiPhoneCall /><div className='ltr'>+963 996 840 955</div>
                                     </Card.Text>
                                 </Card.Body>
                             </Card>

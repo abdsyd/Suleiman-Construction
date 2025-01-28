@@ -13,10 +13,10 @@ export default function ContactUs() {
         <>
         <div className="contact-info">
             <p>
-                <TbDeviceLandlinePhone />+1234567890
+                <TbDeviceLandlinePhone /><div className='ltr'>+1234567890</div>
             </p>
             <p>
-                <BiPhoneCall />+1234567890
+                <BiPhoneCall /><div className='ltr'>+1234567890</div>
             </p>
             <p>
                 <TiMail /> example@example.com

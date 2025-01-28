@@ -1,20 +1,13 @@
 .products .card {
-    width: 18rem;
-    height: 19rem;
+    padding: 20px;
+    margin: 10px;
     border: none;
 }
 
 .products .card img {
     background-color: #F5F5F5;
     width: 100%;
-    /* Ensures the image takes full width of the card */
     height: 100%;
-    /* Ensures the image fills the card height */
-    object-fit: cover;
-    /* Maintains aspect ratio and covers the area */
-    border-top-left-radius: 0.5rem;
-    /* Optional: rounded corners */
-    border-top-right-radius: 0.5rem;
 }
 
 .products p {
@@ -42,4 +35,7 @@
     font-size: 20px;
     display: flex;
     justify-content: space-between;
+}
+.products .price {
+    color: #D4AF37;
 }

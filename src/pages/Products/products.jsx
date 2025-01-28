@@ -23,7 +23,7 @@ export default function Products() {
                                 <Card.Body>
                                     <Card.Title>
                                         <span>عنوان</span>
-                                        <span>$99.99</span>
+                                        <span className='price'>$99.99</span>
                                     </Card.Title>
                                     <Card.Text>افضل منتج في العالم</Card.Text>
                                 </Card.Body>
@@ -45,7 +45,7 @@ export default function Products() {
                                 <Card.Body>
                                     <Card.Title>
                                         <span>عنوان</span>
-                                        <span>$99.99</span>
+                                        <span className='price'>$99.99</span>
                                     </Card.Title>
                                     <Card.Text>افضل منتج في العالم</Card.Text>
                                 </Card.Body>

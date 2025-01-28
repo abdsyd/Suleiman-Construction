@@ -3,7 +3,7 @@
 }
 /* Only apply to .card elements within the Members component */
 .members .card {
-    width: 20rem;
+    
     margin-bottom: 40px;
     box-shadow: 0 4px 15px rgba(255, 215, 0, 0.75);
     border: none;
