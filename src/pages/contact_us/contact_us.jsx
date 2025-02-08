@@ -44,7 +44,7 @@ export default function ContactUs() {
                     </div>
                     <div className='row mt-3'>
                         <div className='col-lg-6'>
-                            <FloatingLabel controlId="floatingPassword" label={<><span className="text-danger">*</span> رقم الهاتف</>}>
+                            <FloatingLabel controlId="floatingPassword" label={<><span className="text-danger">*</span> رقم الهاتف</>} className='mb-3'>
                                 <Form.Control type="tel" required  />
                             </FloatingLabel>
                         </div>
@@ -58,7 +58,7 @@ export default function ContactUs() {
                             </FloatingLabel>
                         </div>
                     </div>
-                    <div className='row mt-3'>
+                    <div className='row '>
                         <div className='col-lg-12'>
                             <FloatingLabel controlId="floatingTextarea2" label={<><span className='text-danger'>*</span>رسالتك هنا</>}>
                                 <Form.Control
