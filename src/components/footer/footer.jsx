@@ -28,13 +28,13 @@ export default function Footer() {
                         سياسة الخصوصية
                         </a>
                     </li>
-                    <li className="list-inline-item">|</li>
+                    <span className="p-1">|</span>
                     <li className="list-inline-item footer-links">
                         <a href="#" className="text-decoration-none">
                         شروط الخدمة
                         </a>
                     </li>
-                    <li className="list-inline-item">|</li>
+                    <span className="p-1">|</span>
                     <li className="list-inline-item footer-links">
                         <a href="#" className="text-decoration-none">
                         اتصل بنا
