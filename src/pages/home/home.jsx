@@ -1,18 +1,18 @@
 import section1 from './section1.png'
 import section2 from './section2.png'
-import hero from './hero.jpg'
 import './home.css'
+import { Link } from 'react-router-dom';
 
 export default function Home() {
     return (
         <div className='home'>
             <div className="hero-section d-flex align-items-center text-white text-center">
                 <div className="container">
-                    <h1 className="display-4 fw-bold">Welcome to Our Platform</h1>
+                    <h1 className="display-4 fw-bold">مرحبًا بكم في عالم البناء المتكامل!</h1>
                     <p className="lead">
-                        Elevate your experience with insights, innovation, and inspiration.
+                        نقدم لكم أفضل مواد البناء من حديد وحجر وغيرها، بجودة عالية وأسعار تنافسية. نسعى لتكونوا شركاءنا في بناء مستقبل متين
                     </p>
-                    <button className="btn btn-light btn-lg mt-3 hero-btn">Get Started</button>
+                    <Link to="/contact"  className="btn btn-light btn-lg mt-3 hero-btn">للتواصل اضغط هنا</Link>
                 </div>
             </div>
             <div className="py-5 ">
@@ -20,11 +20,11 @@ export default function Home() {
                 {/* First Section */}
                 <div className="container">
                     <div className="row align-items-center g-5">
-                        <div className="col-lg-5">
-                            <h2 className="fw-bold">Engaging Title</h2>
-                            <p className="text-muted">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi delectus repellat repellendus doloremque voluptates iure sunt earum explicabo voluptatem quas, enim suscipit tenetur corrupti odio?
-                            </p>
+                        <div className="col-lg-5 ">
+                            <h2 className="fw-bold px-4">العنوان الاول</h2>
+                            <p className="text-muted px-4">
+                                بالعمل الإنذار، ثم ك عل يتم اعلان أطراف ارتكبها. ثم بعض نتيجة القادة مع إعلان بالفشل الثقيلة غير. بلا العسكري الإقتصادي قد, عدد ما إختار الأخذ. تحرير حادثة .                            </p>
+
                         </div>
                         <div className="col-lg-7">
                             <img src={section1} alt="Descriptive Alt" className="img-fluid  " />
@@ -36,10 +36,9 @@ export default function Home() {
                 <div className="container mt-5">
                     <div className="row align-items-center g-5 flex-lg-row-reverse">
                         <div className="col-lg-5">
-                            <h2 className="fw-bold ">Another Title</h2>
-                            <p className="text-muted">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi delectus repellat repellendus doloremque voluptates iure sunt earum explicabo voluptatem quas, enim suscipit tenetur corrupti odio?
-                            </p>
+                            <h2 className="fw-bold px-4">العنوان الثاني</h2>
+                            <p className="text-muted px-4">
+                                بالعمل الإنذار، ثم ك عل يتم اعلان أطراف ارتكبها. ثم بعض نتيجة القادة مع إعلان بالفشل الثقيلة غير. بلا العسكري الإقتصادي قد, عدد ما إختار الأخذ. تحرير حادثة .                            </p>
                         </div>
                         <div className="col-lg-7">
                             <img src={section2} alt="Descriptive Alt" className="img-fluid" />
@@ -50,13 +49,13 @@ export default function Home() {
                 <div className="container mt-5">
                     <div className="row align-items-center g-5">
                         <div className="col-lg-5">
-                            <h2 className="fw-bold ">Final Section</h2>
-                            <p className="text-muted">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi delectus repellat repellendus doloremque voluptates iure sunt earum explicabo voluptatem quas, enim suscipit tenetur corrupti odio?
-                            </p>
+                            <h2 className="fw-bold px-4">العنوان الثالت</h2>
+                            <p className="text-muted px-4">
+                                بالعمل الإنذار، ثم ك عل يتم اعلان أطراف ارتكبها. ثم بعض نتيجة القادة مع إعلان بالفشل الثقيلة غير. بلا العسكري الإقتصادي قد, عدد ما إختار الأخذ. تحرير حادثة .                            </p>
+
                         </div>
                         <div className="col-lg-7">
-                            <img src={section2} alt="Descriptive Alt" className="img-fluid" />
+                            <img src={section1} alt="Descriptive Alt" className="img-fluid" />
                         </div>
                     </div>
                 </div>

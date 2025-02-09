@@ -1,5 +1,8 @@
-.home h2,h1{
+.home h2{
     color: #D4AF37;
+}
+.home h1{
+  color: #d4af37;
 }
 .home p {
     font-size: 25px;
